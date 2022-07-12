@@ -96,21 +96,21 @@ background-position: right center;
 
 
 }
-div.video {
+section.video {
     background-color: #063d1e;
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 56%;
-    position: relative;
+  
+
+  
 
 
 }
-div.video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%; 
-    width: 90%; 
-    height: 90%
+section.video > iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: 70vh;
+   
 
 }
 footer {
@@ -138,11 +138,9 @@ footer {
 <body>
     
     <header>
-        <img src="imagens/nome elvis.jpg" alt="">
+        <img src="imagens/Elvis-logo.png" alt="">
        
-        <p>
-            Por <a href="https://www.ebiografia.com/elvis_presley/" target="_blank">Dilva Frasão</a>
-        </p>
+      
     </header>
     <section class="normal">
         <h1>
@@ -187,13 +185,13 @@ footer {
             De acordo com a jornalista Rafaela Marobin, o Rei do Rock protagonizou mais de<a href="https://filmow.com/listas/filmes-elvis-presley-l10579/" target="_blank" rel="external"> <strong>30 filmes</strong></a>, que você pode conferir no link acima. E também gravou incrívelmente mais de 700 músicas, das quais você pode ouvir algumas no vídeo abaixo:
         </p>
     </section>
-        <section>
+        <section class="video">
           
        
 
-            <div class="video">
+            
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/K6KNrJE6gWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+           
        
     </section>
     
@@ -232,6 +230,10 @@ footer {
     </section>
     <footer>
         Site teste criado por <a href="https://github.com/astrocorreia" target="_blank">Astrogildo Correia</a>
+
+        <p>
+            Texto por <a href="https://www.ebiografia.com/elvis_presley/" target="_blank">Dilva Frasão</a>
+        </p>
     </footer>
     
 </body>
