@@ -70,7 +70,7 @@ section.imagem01 {
 }
 section#img05 {
 
-background-image: url(imagem05.jpg);
+background-image: url(imagens/imagem05.jpg);
 background-position: right center;
 
 
@@ -85,15 +85,32 @@ section.img06 {
 }
 section#img04 {
 
-background-image: url(imagem04.jpg);
+background-image: url(imagens/imagem04.jpg);
 background-position: right center;
 }
 
 section#img06 {
 
-background-image: url(imagem06.jpg);
+background-image: url(imagens/imagem06.jpg);
 background-position: right center;
 
+
+}
+div.video {
+    background-color: #063d1e;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;
+
+
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%; 
+    width: 90%; 
+    height: 90%
 
 }
 footer {
@@ -121,7 +138,7 @@ footer {
 <body>
     
     <header>
-        <img src="nome elvis.jpg" alt="">
+        <img src="imagens/nome elvis.jpg" alt="">
        
         <p>
             Por <a href="https://www.ebiografia.com/elvis_presley/" target="_blank">Dilva Frasão</a>
@@ -144,7 +161,7 @@ footer {
 
     </section>
     <section class="imagem01" id="img05">
-        <img src="elvis 01.jpg" alt="complemento">
+        <img src="imagens/elvis 01.jpg" alt="complemento">
 
          <h2>
             Início da carreira
@@ -162,8 +179,26 @@ footer {
         </p>
 
     </section>
+    <section>
+        <h2>
+            Filmografia do Rei do Rock
+        </h2>
+        <p>
+            De acordo com a jornalista Rafaela Marobin, o Rei do Rock protagonizou mais de<a href="https://filmow.com/listas/filmes-elvis-presley-l10579/" target="_blank" rel="external"> <strong>30 filmes</strong></a>, que você pode conferir no link acima. E também gravou incrívelmente mais de 700 músicas, das quais você pode ouvir algumas no vídeo abaixo:
+        </p>
+    </section>
+        <section>
+          
+       
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/K6KNrJE6gWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+       
+    </section>
+    
     <section class="imagem04" id="img04">
-        <img src="imagem fundinho.jpg" alt="complemento">
+        <img src="imagens/imagem fundinho.jpg" alt="complemento">
       
     </section>
     <section>
@@ -184,7 +219,7 @@ footer {
     </section>
    
     <section class="img06"id="img06">
-        <img src="elvis03.jpg" alt="elvis03">
+        <img src="imagens/elvis03.jpg" alt="elvis03">
         <p>
             Durante os anos 70, Elvis realizou grandes shows e se apresentou em Las Vegas, em várias temporadas.
 
@@ -200,4 +235,4 @@ footer {
     </footer>
     
 </body>
-</html>
+</html
